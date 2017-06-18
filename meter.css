@@ -1,0 +1,70 @@
+body {
+	font-family: Avenir Next;
+}
+
+.chart {
+	width: 210px;
+	height: 320px;
+}
+
+.chart .title {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.chart .priority {
+	width: 70px;
+	height: 320px;
+	float: left;
+	text-align: right;
+}
+
+.chart .container .bar {
+	width: 20px;
+	height: 250px;
+	margin: 0 0px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bar .red {
+	width: 20px;
+	height: 62.5px;
+	margin: 0;
+	padding: 0;
+	background-color: #EF4836;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.bar .orange {
+	width: 20px;
+	height: 62.5px;
+	margin: 0;
+	padding: 0;
+	background-color: #F89406;
+}
+
+.bar .yellow {
+	width: 20px;
+	height: 62.5px;
+	margin: 0;
+	padding: 0;
+	background-color: #F7CA18;
+}
+
+.bar .green {
+	width: 20px;
+	height: 62.5px;
+	margin: 0;
+	padding: 0;
+	background-color: #00B16A;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.chart .container .desc {
+	line-height: 17px;
+	float: right;
+	margin-top: -250px;
+}
